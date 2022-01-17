@@ -219,6 +219,16 @@ h1{
 }
 
 
+@media only screen and (max-width: 480px) {
+  .recipes {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+}
+}
+
+
+
 
 
 </style>
